@@ -35,6 +35,16 @@ class UnitTest(object):
         stop = timeit.default_timer()
         print(f"Linear time to read both sam files: {stop - start}")
 
+    def _test_locaste_mut(self):
+        """
+        Test locate muataion class
+        """
+        # init all the input parameters
+        # self, row, full_seq, cds_seq, seq_lookup, tile_s, tile_e, post_prob_cutoff, logging, mut_rate
+        row = 
+        pass
+
+
 def main(args):
     ut = UnitTest(args)
     if args.mode == "count_mut":
